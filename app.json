@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "org.mrabo.mrabodataapp",
       "versionCode": 1,
@@ -25,9 +27,7 @@
       }
     },
     "plugins": [
-      "expo-splash-screen",
-      "expo-asset",
-      "expo-font"
+      "expo-splash-screen"
     ]
   }
 }
