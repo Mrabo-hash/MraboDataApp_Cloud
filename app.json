@@ -15,7 +15,7 @@
       "**/*"
     ],
     "android": {
-      "package": "org.mrabo.mrabodataapp",
+      "package": "com.mrabo.sabonapp",
       "versionCode": 1,
       "permissions": [
         "INTERNET",
