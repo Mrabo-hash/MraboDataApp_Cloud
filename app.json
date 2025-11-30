@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MraboDataApp",
+    "name": "Mrabo Data App",
     "slug": "mrabo-data-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,25 +14,18 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "android": {
-      "package": "org.mrabo.mrabodataapp",
-      "versionCode": 1,
-      "permissions": [
-        "INTERNET",
-        "ACCESS_NETWORK_STATE"
-      ],
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#ffffff"
-      }
+    "ios": {
+      "supportsTablet": true
     },
-    "plugins": [
-      "expo-splash-screen"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "5d082fd3-3f6b-447d-ac85-01a710a444c2"
-      }
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mrabohash.mrabodataapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
